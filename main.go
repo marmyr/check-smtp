@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/zerospam/check-smtp/http/handlers"
-	"github.com/zerospam/check-smtp/lib/environment-vars"
+	environmentvars "github.com/zerospam/check-smtp/lib/environment-vars"
 	"net/http"
+	"os"
 )
 
 func init() {
