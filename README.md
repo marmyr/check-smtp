@@ -25,7 +25,10 @@ Mini HTTP service that takes a JSON with server information and check
 | TLS1.2      | TLS12  |
 | TLS1.3      | TLS13  |
 
-## Data
+
+## Endpoint:
+
+## Data for the endpoint `/check`
 ```json
 {
   "from": "bounce@myserver.com",
